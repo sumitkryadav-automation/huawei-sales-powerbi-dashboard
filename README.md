@@ -4,7 +4,7 @@ An interactive Power BI dashboard that analyses Huawei smartphone sales across *
 
 > **About the data:** I generated this sample dataset with AI tools for practice. It is **not** Huawei data, employer data or data from any real company. All figures are illustrative.
 
-![Huawei Sales Dashboard](images/dashboard-overview.png)
+![Huawei Sales Dashboard](dashboard-overview.png)
 
 ---
 
@@ -18,7 +18,7 @@ An interactive Power BI dashboard that analyses Huawei smartphone sales across *
 
 | Item | Detail |
 |---|---|
-| File | `data/Huawei_Mobile_Sales_Data.xlsx` |
+| File | [`Huawei_Mobile_Sales_Data.xlsx`](Huawei_Mobile_Sales_Data.xlsx) |
 | Rows | 3,835 transactions |
 | Period | Oct 2021 – Oct 2024 |
 | Coverage | 19 Indian cities · 15 Huawei models |
@@ -106,19 +106,17 @@ An interactive Power BI dashboard that analyses Huawei smartphone sales across *
 
 ```
 huawei-sales-powerbi-dashboard/
-├── Huawei_Dashboard.pbix          # Power BI report
-├── data/
-│   └── Huawei_Mobile_Sales_Data.xlsx
-├── images/
-│   └── dashboard-overview.png
+├── Huawei sales dashboard.pbix      # Power BI report
+├── Huawei_Mobile_Sales_Data.xlsx    # Sample dataset
+├── dashboard-overview.png           # Dashboard screenshot
 └── README.md
 ```
 
 ## ▶️ How to use
 
 1. Download or clone this repository.
-2. Open `Huawei_Dashboard.pbix` in **Power BI Desktop** (free for Windows).
-3. If prompted, point the data source to `data/Huawei_Mobile_Sales_Data.xlsx`.
+2. Open `Huawei sales dashboard.pbix` in **Power BI Desktop** (free for Windows).
+3. If prompted, point the data source to `Huawei_Mobile_Sales_Data.xlsx`.
 4. Use the slicers and month buttons to explore.
 
 ---
